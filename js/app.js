@@ -10,24 +10,29 @@ particlesJS(
           value_area: 3235.5053306923182,
         },
       },
+
       color: {
         value: "#cde388",
       },
+
       shape: {
         type: "circle",
         stroke: {
           width: 0,
           color: "#000000",
         },
+
         polygon: {
           nb_sides: 6,
         },
+
         image: {
           src: "img/github.svg",
           width: 100,
           height: 100,
         },
       },
+
       opacity: {
         value: 0.5,
         random: true,
@@ -38,6 +43,7 @@ particlesJS(
           sync: false,
         },
       },
+
       size: {
         value: 10,
         random: true,
@@ -48,6 +54,7 @@ particlesJS(
           sync: false,
         },
       },
+
       line_linked: {
         enable: false,
         distance: 500,
@@ -55,6 +62,7 @@ particlesJS(
         opacity: 0.4,
         width: 2,
       },
+
       move: {
         enable: true,
         speed: 6,
@@ -70,6 +78,7 @@ particlesJS(
         },
       },
     },
+
     interactivity: {
       detect_on: "canvas",
       events: {
@@ -77,12 +86,15 @@ particlesJS(
           enable: true,
           mode: "bubble",
         },
+
         onclick: {
           enable: true,
           mode: "repulse",
         },
+
         resize: true,
       },
+
       modes: {
         grab: {
           distance: 400,
@@ -90,6 +102,7 @@ particlesJS(
             opacity: 0.5,
           },
         },
+
         bubble: {
           distance: 400,
           size: 4,
@@ -97,18 +110,22 @@ particlesJS(
           opacity: 1,
           speed: 3,
         },
+
         repulse: {
           distance: 200,
           duration: 0.4,
         },
+
         push: {
           particles_nb: 4,
         },
+
         remove: {
           particles_nb: 2,
         },
       },
     },
+
     retina_detect: true,
     config_demo: {
       hide_card: false,

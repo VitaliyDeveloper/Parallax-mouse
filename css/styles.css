@@ -25,13 +25,13 @@ header {
 }
 
 .fairy {
-    width: 600px;
-    height: 720px;
+    min-width: 600px;
+    min-height: 720px;
     background: url('../img/fairy.png') no-repeat;
     background-size: cover;
     position: absolute;
     bottom: -100px;
-    left: 20%;
+    left: 30%;
 }
 
 .text {
@@ -45,4 +45,5 @@ header {
     text-shadow: 0 0 10px #FBFEF8;
     text-shadow: 0 0 15px #e2f7ce;
     white-space: nowrap;
+
 }
